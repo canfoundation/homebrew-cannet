@@ -13,9 +13,9 @@ class Cannet < Formula
    depends_on "libusb"
    depends_on :macos => :mojave
    depends_on :arch =>  :intel
-
+   
    bottle do
-      root_url "https://github.com/canfoundation/can/releases/download/can-v1.0.0"
+      root_url "https://github.com/canfoundation/CAN/releases/download/can-v1.0.0"
       sha256 "c29d77f9a76c1ccbdd5d27df5d6882162cdf03166cebf8c0f05d5520c50d6a37" => :mojave
    end
    def install
