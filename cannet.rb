@@ -15,7 +15,7 @@ class Cannet < Formula
    depends_on :arch =>  :intel
 
    bottle do
-      root_url "https://github.com/canfoundation/can/releases/download/v2.0.2"
+      root_url "https://github.com/canfoundation/can/releases/download/can-v1.0.0"
       sha256 "f3a36a6b43a434a7c4eaf4501c2c52975f47f15ecdb96390277ac37e5aafafb0" => :mojave
    end
    def install
