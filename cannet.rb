@@ -16,7 +16,7 @@ class Cannet < Formula
    
    bottle do
       root_url "https://github.com/canfoundation/CAN/releases/download/can-v1.0.0"
-      sha256 "c29d77f9a76c1ccbdd5d27df5d6882162cdf03166cebf8c0f05d5520c50d6a37" => :mojave
+      sha256 "cbd505ac1a25843b9aacdb8efc77ccc8634f09d7ff81e9135fc936190cd62823" => :mojave
    end
    def install
       raise "Error, only supporting binary packages at this time"
